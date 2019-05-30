@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".app">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toStartOf="@+id/imageButton4"
+        app:srcCompat="@drawable/kahoot" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="149dp"
+        android:layout_height="146dp"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="209dp"
+        app:srcCompat="@drawable/wiki" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
+        android:layout_width="141dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="380dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/google"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="144dp"
+        android:layout_height="125dp"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="136dp"
+        app:srcCompat="@drawable/game" />
+</RelativeLayout>

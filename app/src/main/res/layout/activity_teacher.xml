@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher">
+
+    <Button
+        android:id="@+id/namebtt"
+        android:layout_width="match_parent"
+        android:layout_height="367dp"
+        android:layout_above="@+id/appbtt"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-6dp"
+        android:text="רשימת תלמידים"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/appbtt"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:text="אפליקציות"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="272dp" />
+</RelativeLayout>
+
+
+
